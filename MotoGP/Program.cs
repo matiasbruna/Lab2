@@ -15,7 +15,7 @@ namespace MotoGP
 
             //Console.Clear();
 
-           // TiempoRapidoLento(Piloto);
+            TiempoRapidoLento(Piloto);
 
 
 
@@ -41,7 +41,7 @@ namespace MotoGP
             
             return tiempoVueltas;
         }
-      /*   static void TiempoRapidoLento (double[] P)
+        static void TiempoRapidoLento (double[] P)
         {
 
            double MejorTiempo = P[0];
@@ -49,11 +49,11 @@ namespace MotoGP
 
            for (int i = 0; i < P.Length; i++)
            {
-               if (P[i] >= MejorTiempo[i]) {
+               if (P[i] >= MejorTiempo) {
                    MejorTiempo = P[i];
                }
 
-               if (P[i] <= MenorTiempo[i]){
+               if (P[i] <= MenorTiempo){
                    MenorTiempo = P[i]; 
                }
            }     
@@ -61,7 +61,7 @@ namespace MotoGP
            Console.WriteLine($"El Mejor tiempo es: {MejorTiempo}.");
             Console.WriteLine($"El menor tiempo es: {MenorTiempo}.");
 
-        } */
+        } 
 
 
     }
