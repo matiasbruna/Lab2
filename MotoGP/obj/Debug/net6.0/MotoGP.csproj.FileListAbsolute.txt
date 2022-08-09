@@ -1,0 +1,15 @@
+/home/matias/Utn /Lab2/MotoGP/bin/Debug/net6.0/MotoGP
+/home/matias/Utn /Lab2/MotoGP/bin/Debug/net6.0/MotoGP.deps.json
+/home/matias/Utn /Lab2/MotoGP/bin/Debug/net6.0/MotoGP.runtimeconfig.json
+/home/matias/Utn /Lab2/MotoGP/bin/Debug/net6.0/MotoGP.dll
+/home/matias/Utn /Lab2/MotoGP/bin/Debug/net6.0/MotoGP.pdb
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.csproj.AssemblyReference.cache
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.GeneratedMSBuildEditorConfig.editorconfig
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.AssemblyInfoInputs.cache
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.AssemblyInfo.cs
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.csproj.CoreCompileInputs.cache
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.dll
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/refint/MotoGP.dll
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.pdb
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/MotoGP.genruntimeconfig.cache
+/home/matias/Utn /Lab2/MotoGP/obj/Debug/net6.0/ref/MotoGP.dll
