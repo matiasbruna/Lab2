@@ -1,0 +1,12 @@
+Se realizan las pruebas clasificatorias del moto gp, y se toman los tiempos de cada piloto 
+y cada recorrido completo al circuito de los mismos.
+
+Se solicita armar un programa para obtener datos de los pilotos y sus tiempos,
+donde se pide como dato inicial, la cantidad de vueltas completas recorridas de un piloto.
+A partir de ello se solicita ingresar el tiempo por cada recorrido completo (en decimal),
+para finalizar se necesita como informe:
+- Tiempo más rápido
+- Tiempo más lento
+- Promedio de tiempo para todas las vueltas recorridas.
+- Porcentaje de vueltas en donde el tiempo esta dentro del rango esperado (2.3 min y 2.8 min)
+- Si ha superado el record del circuito (suponemos como record al tiempo promedio de vueltas)
