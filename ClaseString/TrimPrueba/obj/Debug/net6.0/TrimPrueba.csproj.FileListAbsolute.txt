@@ -1,0 +1,15 @@
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/TrimPrueba
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/TrimPrueba.deps.json
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/TrimPrueba.runtimeconfig.json
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/TrimPrueba.dll
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/ref/TrimPrueba.dll
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/bin/Debug/net6.0/TrimPrueba.pdb
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.csproj.AssemblyReference.cache
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.GeneratedMSBuildEditorConfig.editorconfig
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.AssemblyInfoInputs.cache
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.AssemblyInfo.cs
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.csproj.CoreCompileInputs.cache
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.dll
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/ref/TrimPrueba.dll
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.pdb
+/home/matias/utn/Lab2/ClaseString/TrimPrueba/obj/Debug/net6.0/TrimPrueba.genruntimeconfig.cache
