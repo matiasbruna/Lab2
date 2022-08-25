@@ -12,8 +12,8 @@ namespace PruebaTrim
 
             Console.Clear();
 
-            Console.WriteLine(nombre2.TrimStart (caracter.ToCharArray()));
-            Console.WriteLine(nombre1.TrimEnd (caracter.ToCharArray()));
+            Console.WriteLine(nombre2.TrimStart (caracter.ToCharArray())); /// quita los caracteres del Principo del vetor
+            Console.WriteLine(nombre1.TrimEnd (caracter.ToCharArray())); //quita los caracteres especificados en el vector caracter, del vector nombre.
             
         }
     }
