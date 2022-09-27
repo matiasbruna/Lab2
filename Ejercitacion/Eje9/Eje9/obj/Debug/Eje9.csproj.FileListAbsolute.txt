@@ -1,0 +1,8 @@
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\bin\Debug\Eje9.exe.config
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\bin\Debug\Eje9.exe
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\bin\Debug\Eje9.pdb
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\obj\Debug\Eje9.csproj.AssemblyReference.cache
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\obj\Debug\Eje9.csproj.SuggestedBindingRedirects.cache
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\obj\Debug\Eje9.csproj.CoreCompileInputs.cache
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\obj\Debug\Eje9.exe
+C:\Users\matbr\Desktop\Utn\Lab2\Ejercitacion\Eje9\Eje9\obj\Debug\Eje9.pdb
