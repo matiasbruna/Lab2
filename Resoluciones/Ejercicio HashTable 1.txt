@@ -1,0 +1,25 @@
+Hashtable multiplos = new Hashtable();
+            int numero = 0;
+            bool ingresoCorrecto = false;
+
+            do
+            {
+                Console.WriteLine("Ingrese el número");
+                ingresoCorrecto = int.TryParse(Console.ReadLine(), out numero);
+            } while (!ingresoCorrecto);     
+
+
+            for (int i = 0; i < 5000; i++)
+            {
+                multiplos.Add(i, numero * i);
+            }
+
+            do
+            {
+                Console.WriteLine("Por cuanto quiere multiplicar el número");
+                ingresoCorrecto = Int32.TryParse(Console.ReadLine(), out numero);
+            } while (!ingresoCorrecto);
+
+            Console.WriteLine("El multiplo es: {0} ",multiplos[numero]);
+
+            Console.ReadKey();

@@ -1,0 +1,7 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\bin\Debug\Clase strin ejercicio 10.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\bin\Debug\Clase strin ejercicio 10.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\bin\Debug\Clase strin ejercicio 10.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\obj\Debug\Clase strin ejercicio 10.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\obj\Debug\Clase strin ejercicio 10.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\obj\Debug\Clase strin ejercicio 10.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase strin ejercicio 10\Clase strin ejercicio 10\obj\Debug\Clase strin ejercicio 10.pdb

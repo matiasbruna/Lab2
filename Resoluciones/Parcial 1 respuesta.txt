@@ -1,0 +1,136 @@
+  Elaborar un programa que le solicite al usuario seleccionar entre estas opciones:
+
+	1- Ingresar Párrafo
+
+	2- Mostrar Info del Párrafo
+
+	9- Salir
+
+* Si no selecciona ninguna de esas 3 opciones el programa seguirá mostrando el menú.[1 punto]
+
+* La utilización de al menos un método en el programa. [1 punto]
+
+
+
+En opción 1:
+
+* El párrafo ingresado no puede ser vacío y debe contener mínimo 30 letras. 
+
+  En caso de no ser así, mostrar error y solicitar que se ingrese de nuevo. [1 puntos]
+
+En opción 2:
+
+* Por cada punto siguiente controlar que se haya ingresado el párrafo. [1 puntos]
+
+* Mostrar cantidad de caracteres que son letras, la cantidad de números y 
+
+  cantidad de otros (que no son ni letra ni número). [2 puntos]
+
+* Mostrar la CANTIDAD de PALABRAS del texto
+
+  (ayuda: considerando el espacio como separador de palabra). [1 puntos]
+
+* Mostrar las palabras en mayúsculas, cuantas palabras son MENORES a 6 caracteres, cuantas     MAYORES a 9 caracteres y cuantas están en ese rango (entre 6 y 9 caracteres). [2 puntos]
+
+* Mostrar todas las palabras ordenadas alfabéticamente una debajo de otra 
+
+  y con ; (punto y coma) a la derecha de cada palabra. [1 puntos]
+
+
+static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.Clear();
+
+            int opcion = 0;
+            string parrafo = "";
+
+            while (opcion != 9)
+            {
+                opcion = mostrarMenu();
+
+                if (opcion == 1)
+                {
+                    parrafo = ingresarParrafo();
+                    Console.WriteLine("Parrafo ingresado correctamente.");
+                }
+
+                if (opcion == 2)
+                {
+                    if (parrafo.Equals(""))
+                        Console.WriteLine("El Parrafo todavia no ha sido ingresado.");
+                    else
+                    {
+                        Console.Clear();
+                        int cantLetras = 0, cantNros = 0;
+                        for (int i = 0; i < parrafo.Length; i++)
+                        {
+                            if (char.IsLetter(parrafo[i])) cantLetras++;
+                            if (char.IsNumber(parrafo[i])) cantNros++;
+                        }
+                        Console.WriteLine("Cantidad de caracteres letras:" + cantLetras);
+                        Console.WriteLine("Cantidad de caracteres numeros:" + cantNros);
+                        Console.WriteLine("Otros tipo de caracter:" + (parrafo.Length - cantLetras - cantNros));
+
+                        string[] palabras = parrafo.Split(' ');
+                        Console.WriteLine("Cantidad de palabras del Parrafo:" + palabras.Length);
+
+                        int cantMenor = 0, cantMayor = 0;
+                        for (int i = 0; i < palabras.Count(); i++)
+                        {
+                            if (palabras[i].Length < 6) cantMenor++;
+                            if (palabras[i].Length > 9) cantMayor++;
+				            Console.WriteLine(palabras[i].ToUpper());
+                        }
+                        Console.WriteLine("Palabras con menos de 6 letras:" + cantMenor);
+                        Console.WriteLine("Palabras con mas de 9 letras:" + cantMayor);
+                        Console.WriteLine("Palabras entre 6 y 9 letras:" + (palabras.Length - cantMayor - cantMenor));
+
+                        Array.Sort(palabras);
+                        Console.WriteLine("\nPalabras ordenadas alfabeticamente:");
+                        Console.WriteLine(string.Join(";\n", palabras) + ";");
+                    }
+
+                    Console.ReadKey();
+                }
+
+            }
+        }
+
+
+        static int mostrarMenu()
+        {
+            bool numeroCorrecto;
+            int option;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Seleccione un Nro de opcion:");
+                Console.WriteLine("1- Ingresar Parrafo");
+                Console.WriteLine("2- Mostrar Info del Parrafo");
+                Console.WriteLine("9- Salir");
+                numeroCorrecto = int.TryParse(Console.ReadLine(), out option);
+            } while (!numeroCorrecto || (option != 1 && option != 2 && option != 9));
+            
+            return option;
+        }
+
+
+        static string ingresarParrafo()
+        {
+            string texto;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Ingresar un parrafo:");
+                texto = Console.ReadLine();
+                if (texto.Trim().Length < 30)
+                {
+                    Console.WriteLine("El parrafo no debe estar vacio, y debe tener minimo 30 letras.");
+                    Console.ReadKey();
+                }
+            } while (texto.Trim().Length < 30);
+
+            return texto;
+        }

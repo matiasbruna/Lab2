@@ -1,0 +1,84 @@
+static void Main(string[] args)
+        {
+            string razon_social, provincia;
+            long cuit_cuil;
+            char tipo_factura;
+            bool ingreso_correcto, confirmado;
+            StringBuilder datos_cliente = new StringBuilder("");
+            StringBuilder lista_productos = new StringBuilder("");
+
+            // Carga de los datos del cliente
+            razon_social = carga("Ingrese la razon social del cliente:");
+            do { ingreso_correcto = long.TryParse(carga("Ingrese el CUIL o CUIT del cliente: "), out cuit_cuil); } while (!ingreso_correcto);
+            provincia = carga("Ingrese la provincia del cliente: ");
+            do { ingreso_correcto = char.TryParse(carga("Ingrese el tipo de factura: ").ToUpper(), out tipo_factura); } while (!ingreso_correcto || (tipo_factura != 'A' && tipo_factura != 'B' && tipo_factura != 'C'));
+            datos_cliente.AppendFormat("Factura tipo: {0} \nCUIT/CUIL: {1}\nRazon social: {2}\nProvincia: {3}", tipo_factura, cuit_cuil, razon_social, provincia);
+
+            do
+            {
+                //Carga de los datos de cada producto
+                string Nombre_producto;
+                double precio_unitario, porcentaje_descuento, descuento = 0;
+                int cantidad;
+                ingreso_correcto = false;
+
+                Nombre_producto = carga("Ingrese el nombre del producto");
+                do
+                {
+                    ingreso_correcto = int.TryParse(carga("Ingrese cuantas unidades del producto:"), out cantidad);
+                } while (!ingreso_correcto);
+                do
+                {
+                    ingreso_correcto = double.TryParse(carga("Ingrese el precio sin iva del producto:"), out precio_unitario);
+                } while (!ingreso_correcto);
+                Console.WriteLine("Desea aplicar un descuento? escriba si para aplicar");
+                if (Console.ReadLine().ToLower() == "si")
+                {
+                    do
+                    {
+                        ingreso_correcto = double.TryParse(carga("Ingrese el porcentaje de descuento:"), out porcentaje_descuento);
+                    } while (!ingreso_correcto);
+
+                    descuento = (precio_unitario * porcentaje_descuento) / 100;
+                    precio_unitario = precio_unitario - descuento;
+                }
+
+                //IVA
+                double precio_total = precio_unitario * cantidad;
+                double monto_iva = 0;
+
+                if (tipo_factura == 'A' || tipo_factura == 'B')
+                {
+                    monto_iva = (precio_unitario * 0.21);
+                    precio_total = (precio_unitario - monto_iva) * cantidad;
+                }
+
+                //añadir producto a la lista
+                lista_productos.AppendFormat("cantidad: {0} / Producto: {1} / Precio: ${2} / Descuento: ${3} / IVA: ${4} / Total: ${5}\n" ,cantidad,Nombre_producto,precio_unitario,descuento,monto_iva,precio_total); 
+
+                //confirmar si desea ingresar otro producto
+                confirmado = false;
+                string confirmar = carga("ingrese S para cargar otro producto.").ToUpper();
+                if (confirmar == "S")
+                {
+                    confirmado = true;
+                }
+            } while (confirmado);
+
+            //Mostrar
+            Console.WriteLine(datos_cliente);
+            Console.WriteLine(lista_productos);
+            Console.Read();
+        }
+
+        static string carga(string mensaje)
+        {
+            string ingreso;
+            do
+            {
+                Console.WriteLine(mensaje);
+                ingreso = Console.ReadLine();
+            } while (ingreso == "");
+            Console.Clear();
+            return ingreso;
+        }

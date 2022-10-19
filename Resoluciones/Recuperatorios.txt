@@ -1,0 +1,71 @@
+Recuperatorio 1
+Desarrolle un programa que le solicite al usuario ingresar un parrafo de texto, cumpliendo con lo siguiente:
+
+
+
+* El texto ingresado no puede ser vacío. No se puede continuar si no se supera este control. [1 puntos]
+
+* El texto debe contener al menos 30 caracteres. En caso de no ser asi, volver a ingresarlo. [1 puntos]
+
+* Contar y mostrar la cantidad de palabras del texto 
+
+ (ayuda: considere el espacio, el punto o el punto y coma como separador). [2 puntos]
+
+* Mostrar todas las palabras que empiecen con “a”. [1 punto]
+
+* Mostrar todas las palabras que terminen en “s”. [1 punto]
+
+* Reemplace todas las apariciones del carácter “o” por “0” y muestre el resultado. [1 punto]
+
+* Mostrar todas las palabras de mayor a menor (cantidad de caracteres). [2 puntos]
+
+* Mostrar todas las palabras en mayusculas y separadas por punto y coma. [1 punto]
+
+
+Recuperatorio 2
+
+Fabricar un programa con un menu, que a través de una coleccion HASHTABLE, se puedan gestionar 
+
+productos de una empresa, almacenando el Codigo y una Descripcion (o nombre del mismo).
+
+Para ello, las opciones del programa deben permitir:
+
+- Agregar		
+
+- Modificar
+
+- Eliminar
+
+- Listar todos
+
+- Listar todos ordenados
+
+- Buscar x Descripcion
+
+- Importar
+
+- Salir
+
+
+
+* Agregar: el Codigo debe ser alfanumerico de exactamente 9 caracteres, sin tener espacios al inicio 
+
+	   ni al final, validar que no se encuentre previamente cargado (de estarlo mostrar un mensaje).
+
+	   La Descripcion no puede estar vacía. (2 ptos)
+
+* Modificar: solicitar Codigo de prod, buscarlo, si se encuentra, pedir nueva descripcion. (1 pto)
+
+* Eliminar: solicitar Codigo de prod, buscarlo, si se encuentra, pedir confirmacion para eliminar.(1 pto)
+
+* Listar todos: mostrar todos los productos de la forma "[ Codigo ][ Descripcion ]" (1 pto)
+
+* Listar todos ordenados: mostrar todos los productos como anterior punto pero ordenados x Codigo.(2 ptos)
+
+* Buscar x Descripcion: mostrar todos los productos que comiencen con un texto ingresado por el usuario
+
+	NO tener en cuenta mayusculas y minusculas, es decir, "product 1" = "PRODUCT 1" (1 pto)
+
+* Importar: a partir de 2 colecciones STRINGCOLLECTION precargadas con 5 codigos y 5 descripciones,
+
+	vaciar el HASHTABLE y copiar los elementos de los STRINGCOLLECTION, previa confirmacion.(2 ptos)

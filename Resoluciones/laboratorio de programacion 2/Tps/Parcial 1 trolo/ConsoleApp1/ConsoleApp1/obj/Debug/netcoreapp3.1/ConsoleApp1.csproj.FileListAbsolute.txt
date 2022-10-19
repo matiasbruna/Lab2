@@ -1,0 +1,13 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1 trolo\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

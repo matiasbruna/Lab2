@@ -1,0 +1,278 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            string nombre = "";
+            StringBuilder Nombre2 = new StringBuilder(" ");
+            long cuitCuil = 0;
+            StringBuilder cuilCuit = new StringBuilder(" ");
+            string provincia = "";
+            StringBuilder provinciaFinal = new StringBuilder(" ");
+
+            string tFactura = "";
+            string[] NombreProd = new string[1];
+            int[] cantidad = new int[1];
+            int[] psinIVA = new int[1];
+            double[] IVA = new double[1];
+            double[] porcDesc = new double[1];
+            double[] descuentos = new double[1];
+
+            string opcion = "OK";
+            string Sialdescuento = "";
+
+            int i = 0, cant = 1, Insertomaldato = 0;
+            double total = 0;
+
+            do
+            {
+                //INGRESO DATOS DEL CLIENTE
+
+                Console.WriteLine("Ingrese su nombre completo/Razon Social ");
+                nombre = Evitaringresovacio();
+                Nombre2.AppendFormat("{0}", nombre);
+
+                Console.WriteLine("Ingrese su Cuil o Cuit: ");
+                cuitCuil = Evitarerrorcuitocuil();
+                cuilCuit.AppendFormat("{0}", cuitCuil);
+
+                Console.WriteLine("Ingrese la provincia en la que recide ");
+                provincia = Evitaringresovacio();
+                provinciaFinal.AppendFormat("{0}", provincia);
+
+                do
+                {
+                    if (Insertomaldato > 0)
+                    {
+                        Console.WriteLine("Acceso de datos mal");
+                    }
+
+                    Console.WriteLine("Ingrese el tipo de factura que desea hacer:  ( A - B - C )");
+                    tFactura = Evitaringresovacio();
+                    tFactura = tFactura.ToUpper();
+
+                    Insertomaldato = 0;
+
+                    if (tFactura != "A" && tFactura != "B" && tFactura != "C")
+                    {
+                        Insertomaldato++;
+                    }
+
+                } while (Insertomaldato != 0);
+
+
+                do
+                {
+                    Console.WriteLine("Ingrese el nombre del producto: ");
+                    NombreProd[i] = Evitaringresovacio();
+
+                    Console.WriteLine("Ingrese la cantidad de {0}", NombreProd[i]);
+                    cantidad[i] = ingresoNumeros();
+
+                    //Condicion para Facturas que incluyen IVA
+
+                    if (tFactura == "A" || tFactura == "B")
+                    {
+                        //INGRESO PRECIO UNITARIO/SACAR IVA Y DESCUENTO
+
+                        Console.WriteLine("Ingrese el precio sin IVA del producto: ");
+                        psinIVA[i] = ingresoNumeros();
+
+                        IVA[i] = psinIVA[i] * cantidad[i] * 0.21;
+
+                        Console.WriteLine("Desea agregar un descuento al/ los producto/s: ( S // N )");
+                        Sialdescuento = Ingresodeopcion();
+
+                        if (Sialdescuento == "S")
+                        {
+                            Console.WriteLine("Ingrese que porcentaje de descuento desea aplicar al/los producto/s: ");
+                            porcDesc[i] = ingresoNumeros();
+
+                            descuentos[i] = psinIVA[i] * porcDesc[i] / 100;
+                            descuentos[i] = descuentos[i] * cantidad[i];
+                        }
+                        else
+                        {
+                            porcDesc[i] = 0;
+                            descuentos[i] = 0;
+                        }
+
+                    }
+                    //DESCUENTO PARA FACTURAS SIN IVA
+                    else
+                    {
+                        Console.WriteLine("Ingrese el precio del producto: ");
+                        psinIVA[i] = ingresoNumeros();
+
+                        Console.WriteLine("Desea agregar un descuento al/ los producto/s: ( S // N )");
+                        Sialdescuento = Ingresodeopcion();
+
+                        if (Sialdescuento == "S")
+                        {
+                            Console.WriteLine("Ingrese que porcentaje de descuento desea aplicar al/los producto/s: ");
+                            porcDesc[i] = ingresoNumeros();
+
+                            descuentos[i] =( psinIVA[i] * porcDesc[i]) / 100;
+                        }
+                        else
+                        {
+                            porcDesc[i] = 0;
+                            descuentos[i] = 0;
+                        }
+
+                        IVA[i] = 0;
+                    }
+
+                    Console.WriteLine("Desea agregar otro producto a la factura de tipo {0}? (S // N)", tFactura);
+                    opcion = Ingresodeopcion();
+
+                    if (opcion == "S")
+                    {
+                        i++;
+                        cant++;
+                        Array.Resize(ref cantidad, cantidad.Length + 1);
+                        Array.Resize(ref NombreProd, NombreProd.Length + 1);
+                        Array.Resize(ref psinIVA, psinIVA.Length + 1);
+                        Array.Resize(ref IVA, IVA.Length + 1);
+                        Array.Resize(ref descuentos, descuentos.Length + 1);
+                        Array.Resize(ref porcDesc, porcDesc.Length + 1);
+
+                    }
+
+                } while (opcion == "S");
+
+                double[] totales = new double[cant];
+
+                for (i = 0; i < cant; i++)
+                {
+                    if (i == 0)
+                    {
+                        Console.WriteLine("Tipo de Factura: {0}", tFactura);
+                        Console.WriteLine("Nombre de cliente: {0}", Nombre2);
+                        Console.WriteLine("Cuil/Cuit: {0}", cuilCuit);
+                        Console.WriteLine("Provincia: {0}", provinciaFinal);
+
+                    }
+
+                    totales[i] =( psinIVA[i] * cantidad[i]) - descuentos[i] + IVA[i];
+
+                    Console.WriteLine("                               Cantidad de productos:  {0}", cantidad[i]);
+                    Console.WriteLine("                               Producto: {0}", NombreProd[i]);
+                    Console.WriteLine("                               Precio unitario: ${0}", psinIVA[i]);
+                    Console.WriteLine("                               Descuento: {0}%", porcDesc[i]);
+                    Console.WriteLine("                               IVA: ${0}", IVA[i]);
+                    Console.WriteLine("                               Total:  {0}", totales[i]);
+
+                    total = total + totales[i];
+                }
+
+                Console.WriteLine(". . . . . . . . . . . . . . . . ");
+              
+                Console.WriteLine("                                   TOTAL: ${0}", total);
+
+
+                opcion = "N";
+
+                Console.WriteLine("Desea agregar otra factura?( S // N )");
+                opcion = Ingresodeopcion();
+
+            } while (opcion == "S");
+
+            Console.ReadKey();
+        }
+
+        static string Evitaringresovacio()
+        {
+            string cadena = "";
+            int ingerroneo = 0;
+
+            do
+            {
+                if (ingerroneo > 0)
+                {
+                    Console.WriteLine("Su ingreso es vacío, hasta no ingrese dato no se podra avanzar");
+                }
+                ingerroneo = 0;
+                cadena = Console.ReadLine();
+                ingerroneo++;
+
+            } while (cadena == "");
+
+            return cadena;
+        }
+
+        static string Ingresodeopcion()
+        {
+            string cadena = "";
+            int Ingcorrecto = 0;
+
+            do
+            {
+                cadena = Console.ReadLine();
+                cadena = cadena.ToUpper();
+
+                if (cadena == "S" || cadena == "N")
+                {
+                    Ingcorrecto++;
+                }
+
+                if (Ingcorrecto == 0)
+                {
+                    Console.WriteLine("No presiono ni S/N, hasta que no ingrese correctamente no se avanzará en el programa ");
+                }
+
+
+            } while (cadena == "" && Ingcorrecto == 0);
+
+            return cadena;
+        }
+
+        static long Evitarerrorcuitocuil()
+        {
+            long cuilCuit = 0;
+            bool cuitcorrecto = false;
+            int error = 0;
+
+            do
+            {
+                if (error > 0)
+                {
+                    Console.WriteLine("Ingreso incorrecto");
+                }
+                error = 0;
+
+                cuitcorrecto = long.TryParse(Console.ReadLine(), out cuilCuit);
+
+                error++;
+
+            } while (!cuitcorrecto);
+
+
+            return cuilCuit;
+
+        }
+
+        static int ingresoNumeros()
+        {
+            int num = 0;
+            bool numeroCorrecto = false;
+            int error = 0;
+
+            do
+            {
+                if (error > 0)
+                {
+                    Console.WriteLine("Ingreso incorrecto");
+                }
+                error = 0;
+
+                numeroCorrecto = int.TryParse(Console.ReadLine(), out num);
+
+                error++;
+
+            } while (!numeroCorrecto);
+
+
+            return num;
+        }
+    }
+}

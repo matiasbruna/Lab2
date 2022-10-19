@@ -1,0 +1,7 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\bin\Debug\Ejercicio ejemplo parcial 1.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\bin\Debug\Ejercicio ejemplo parcial 1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\bin\Debug\Ejercicio ejemplo parcial 1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\obj\Debug\Ejercicio ejemplo parcial 1.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\obj\Debug\Ejercicio ejemplo parcial 1.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\obj\Debug\Ejercicio ejemplo parcial 1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Ejercicio ejemplo parcial 1\Ejercicio ejemplo parcial 1\obj\Debug\Ejercicio ejemplo parcial 1.pdb

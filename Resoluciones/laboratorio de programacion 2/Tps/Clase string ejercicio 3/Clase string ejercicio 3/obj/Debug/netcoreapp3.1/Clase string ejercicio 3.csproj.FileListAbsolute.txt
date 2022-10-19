@@ -1,0 +1,13 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.AssemblyInfoInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.AssemblyInfo.cs
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.deps.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.runtimeconfig.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.runtimeconfig.dev.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\bin\Debug\netcoreapp3.1\Clase string ejercicio 3.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 3\Clase string ejercicio 3\obj\Debug\netcoreapp3.1\Clase string ejercicio 3.genruntimeconfig.cache

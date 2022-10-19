@@ -1,0 +1,7 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\bin\Debug\Parcial 1.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\bin\Debug\Parcial 1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\bin\Debug\Parcial 1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\obj\Debug\Parcial 1.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\obj\Debug\Parcial 1.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\obj\Debug\Parcial 1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 1\Parcial 1\obj\Debug\Parcial 1.pdb

@@ -1,0 +1,13 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.deps.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.runtimeconfig.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.runtimeconfig.dev.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\bin\Debug\netcoreapp3.1\Parcial 2.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.AssemblyInfoInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.AssemblyInfo.cs
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Parcial 2\Parcial 2\Parcial 2\obj\Debug\netcoreapp3.1\Parcial 2.genruntimeconfig.cache

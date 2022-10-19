@@ -1,0 +1,7 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\bin\Debug\Clase stringbuiilder ejercicio 2.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\bin\Debug\Clase stringbuiilder ejercicio 2.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\bin\Debug\Clase stringbuiilder ejercicio 2.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\obj\Debug\Clase stringbuiilder ejercicio 2.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\obj\Debug\Clase stringbuiilder ejercicio 2.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\obj\Debug\Clase stringbuiilder ejercicio 2.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2\obj\Debug\Clase stringbuiilder ejercicio 2.pdb

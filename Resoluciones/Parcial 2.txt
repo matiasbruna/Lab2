@@ -1,0 +1,25 @@
+Desarrolle un programa con un menu, con algun tipo de coleccion vista en clases, se puedan gestionar 
+
+empresas del parque industrial, almacenando el CUIT/CUIL y Razon social (nombre) de la misma.
+
+Para ello, las opciones del programa deben permitir:
+
+
+
+* Agregar empresas a la colección, validando por CUIT/CUIL que no se encuentre previamente cargada. (1 pto)
+
+	- El CUIT o CUIL debe ser un número entero de 11 dígitos. (0.5 ptos)
+
+	- La razon social no puede estar vacía. (0.5 ptos)
+
+* Listar todas las empresas, mostrando de la forma: "codigo(indice+1) | CUIT | razon social" (1 pto)
+
+* Listar todas las empresas cuyo nombre comience con una cadena ingresada por el usuario. (1.5 ptos)
+
+* Mostrar datos (cod,cuit,nombre) de la empresa cuyo CUIT/CUIL coincida con uno ingresado. (1.5 ptos)
+
+* Eliminar una empresa de la lista, por CUIT o por codigo.(1.5 ptos)
+
+* Eliminar todas las empresas cargadas, pidiendo confirmación de lo mismo.(1 pto)
+
+* Importar datos iniciales: a partir de dos stringcollections pre-cargados (uno con datos de CUITs, el otro con nombres de empresas), esta opcion debe pedir confirmacion, limpiar la coleccion y luego cargarlos en nuestra coleccion.(con 5 elementos pre-cargados es suficiente) (1.5 ptos)

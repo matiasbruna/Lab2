@@ -1,0 +1,13 @@
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.exe
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.deps.json
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.runtimeconfig.json
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.runtimeconfig.dev.json
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.dll
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\bin\Debug\netcoreapp3.1\Clase string ejercicio 1.pdb
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.csprojAssemblyReference.cache
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.AssemblyInfoInputs.cache
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.AssemblyInfo.cs
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.csproj.CoreCompileInputs.cache
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.dll
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.pdb
+C:\Users\Mestas\source\repos\Clase string ejercicio 1\Clase string ejercicio 1\obj\Debug\netcoreapp3.1\Clase string ejercicio 1.genruntimeconfig.cache

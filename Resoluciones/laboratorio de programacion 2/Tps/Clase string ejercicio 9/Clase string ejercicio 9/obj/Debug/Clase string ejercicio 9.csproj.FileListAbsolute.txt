@@ -1,0 +1,7 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\bin\Debug\Clase string ejercicio 9.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\bin\Debug\Clase string ejercicio 9.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\bin\Debug\Clase string ejercicio 9.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\obj\Debug\Clase string ejercicio 9.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\obj\Debug\Clase string ejercicio 9.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\obj\Debug\Clase string ejercicio 9.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 9\Clase string ejercicio 9\obj\Debug\Clase string ejercicio 9.pdb

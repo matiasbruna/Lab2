@@ -1,0 +1,13 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.deps.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.runtimeconfig.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.runtimeconfig.dev.json
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\bin\Debug\netcoreapp3.1\Clase char ejercicio 1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.csprojAssemblyReference.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.AssemblyInfoInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.AssemblyInfo.cs
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.dll
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase char ejercicio 1\Clase char ejercicio 1\obj\Debug\netcoreapp3.1\Clase char ejercicio 1.genruntimeconfig.cache

@@ -1,0 +1,85 @@
+static void Main(string[] args)
+        {
+            int opcion=0;
+            bool opcioncorrecta = false;
+            string parrafo = "";
+            char caracter
+
+            do
+            {
+                Console.WriteLine("1 - Ingresar Párrafo");
+                Console.WriteLine("2 - Mostrar Info del Párrafo");
+                Console.WriteLine("9 - Salir");
+                opcioncorrecta = int.TryParse(Console.ReadLine(), out opcion);
+
+            } while (opcion > 2 && opcion < 9);
+
+                if (opcion == 1)
+                while (parrafo == "" && parrafo.Length<30)
+                {
+                    Console.WriteLine("Ingrese texto");
+                    parrafo = Console.ReadLine();
+                }
+
+            if (opcion==2)
+            {
+                bool caractercorrecto = false;
+                bool digitocorrecto = false;
+                int caracterc = 0;
+                int digitoc = 0;
+                for (int i = 0; i < parrafo.Length-1; i++)
+                {
+                
+                 caracter=parrafo[i];
+                caractercorrecto= char.IsLetter(caracter);
+                 digitocorrecto = char.IsDigit(caracter);
+                    if (caractercorrecto==true)
+                    {
+                    
+                    caracterc++;
+                        caractercorrecto = false;
+                    }
+                    if (digitocorrecto==true)
+                    {
+                        digitoc++;
+                        digitocorrecto = false;
+                    }
+                }
+                Console.WriteLine("La cantidad de caracter es"+caracterc);
+                Console.WriteLine("La cantidad de digitos es"+digitoc);
+                while (parrafo!="")
+                {
+                    Console.WriteLine(parrafo);
+                }
+             
+            }
+            char delimitadores = ' ';
+            string[] palabras = parrafo.Split(delimitadores);
+            
+             Console.WriteLine("La cantidad de palabras",palabras.Length);
+            
+
+        
+
+
+
+
+
+
+
+
+                Console.ReadKey();
+
+
+        }
+
+        
+
+
+
+
+
+
+    }
+}
+

@@ -1,0 +1,237 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SortedList listaempresas = new SortedList();
+
+            int opcionmenu = Elegiropcionmenu();
+
+            do
+            {
+               
+                switch (opcionmenu)
+                {
+                    case 1:
+                        Agregar(listaempresas);
+                        break;
+                    case 2:
+                        Listar(listaempresas);
+                        break;
+                    case 3:
+                        BuscarPorRazon(listaempresas);
+                        break;
+                    case 4:
+                        BuscarPorCuit(listaempresas);
+                        break;
+                    case 5:
+                        EliminarPorCodigo(listaempresas);
+                        break;
+                    case 6:
+                        EliminarPorCuit(listaempresas);
+                        break;
+                    case 7:
+                        VaciarLista(listaempresas);
+                        break;
+                }
+
+            } while (opcionmenu != 8);
+        }
+
+        static int Elegiropcionmenu()
+        {
+
+            int seleccion;
+            bool ingresocorrecto;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Seleccione una opcion:");
+                Console.WriteLine("1) Agregar datos");
+                Console.WriteLine("2)Listar Datos");
+                Console.WriteLine("3)Listar todas las empresas cuyo nombre comience con una cadena ingresada por el usuario. ");
+                Console.WriteLine("4)Mostrar datos que coincidan con ingresado por usuario ");
+                Console.WriteLine("5)Eliminar ");
+                Console.WriteLine("6) Vaciar SortedList ");
+                Console.WriteLine("7) Salir");
+                ingresocorrecto = int.TryParse(Console.ReadLine(), out seleccion);
+                if (!ingresocorrecto || seleccion < 1 || seleccion > 7)
+                {
+                    ingresocorrecto = false;
+                    Console.WriteLine("\nIngrese una opcion valida.\nPresione una tecla para continuar.");
+                    Console.ReadKey();
+                }
+            } while (!ingresocorrecto);
+
+            return seleccion;
+        }
+
+        public static void Agregar(SortedList listaempresas)
+        {
+            string Razonsocial = " ";
+            long cuitIngresado = 0;
+
+            Console.WriteLine("Ingrese el nombre de la empresa que desea agregar: ");
+            Razonsocial = ChequearNombre();
+            Console.WriteLine("Ingrese el CUIT/CUIL {0}", Razonsocial);
+            cuitIngresado = ChequearCuit();
+            listaempresas.Add(cuitIngresado, Razonsocial);
+            Console.WriteLine("Presione una tecla para seguir y volver al menú.");
+            Console.Clear();
+        }
+
+        public static string ChequearNombre()
+        {
+            string Razoningresado = "";
+            do
+            {
+                Razoningresado = Console.ReadLine();
+                if (Razoningresado == " ")
+                {
+                    Console.WriteLine("Debe ingresar un nombre correcto");
+                    Console.ReadKey();
+                }
+                Console.Clear();
+            } while (Razoningresado == " ");
+            return Razoningresado;
+        }
+
+        public static long ChequearCuit()
+        {
+            bool ingcorrecto = false;
+            string cuitIngresado = "";
+            long cuit = 0;
+
+            do
+            {
+                cuitIngresado = Console.ReadLine();
+
+                ingcorrecto = long.TryParse(cuitIngresado, out cuit);
+
+            } while (!ingcorrecto || cuitIngresado.Length != 11);
+
+            return cuit;
+        }
+
+        public static void Listar(SortedList listaempresas)
+        {
+            if (listaempresas.Count != 0)
+            {
+                Console.WriteLine("Empresas:");
+                for (int i = 0; i < listaempresas.Count; i++)
+                {
+                    Console.WriteLine("Codigo: {0} || CUIT: {1} || Empresa: {2}", i + 1, listaempresas.GetKey(i), listaempresas.GetByIndex(i));
+                }
+            }
+            else
+            {
+                Console.WriteLine("El sortedlist esta vacío");
+            }
+
+            Console.WriteLine("Presione una tecla para seguir");
+            Console.ReadKey();
+        }
+
+        public static void BuscarPorCuit(SortedList listaempresas)
+        {
+            long cuitIngresado = 0;
+
+            Console.WriteLine("Ingrese el CUIT/CUIL de la empresa");
+            cuitIngresado = ChequearCuit();
+
+            for (int i = 0; i < listaempresas.Count; i++)
+            {
+                if (cuitIngresado == (long)listaempresas.GetKey(i))
+                {
+                    Console.WriteLine("Codigo: {0} || CUIT: {1} || Empresa: {2}", i + 1, listaempresas.GetKey(i), listaempresas.GetByIndex(i));
+                }
+            }
+            Console.WriteLine("Presione una tecla para continuar y volver al menú.");
+            Console.ReadKey();
+        }
+
+        
+
+        public static void EliminarPorCuit(SortedList listaempresas)
+        {
+            string cuitIngresado = "";
+
+            Console.WriteLine("Ingrese el CUIT/CUIL de la empresa a eliminar: ");
+            cuitIngresado = Console.ReadLine();
+            listaempresas.Remove(cuitIngresado);
+
+        }
+
+        public static void EliminarPorCodigo(SortedList listaempresas)
+        {
+            int codIngresado = 0;
+            bool correcto = true;
+
+            Console.WriteLine("Ingrese el codigo de la empresa: ");
+            do
+            {
+                correcto = int.TryParse(Console.ReadLine(), out codIngresado);
+                if (codIngresado <= listaempresas.Count && codIngresado > 0 && correcto)
+                {
+                    listaempresas.RemoveAt(codIngresado - 1);
+                }
+                else
+                {
+                    Console.WriteLine("No se puedo encontrar el codigo, vuelva a ingresarlo.");
+                }
+            } while (codIngresado > listaempresas.Count || codIngresado < 0 || !correcto);
+            Console.WriteLine("Presione una tecla para continuar y volver al menú.");
+        }
+
+        public static void BuscarPorRazon(SortedList listaempresas)
+        {
+            string nombreIngresado = "";
+
+            Console.WriteLine("Ingrese el nombre de la empresa");
+            nombreIngresado = Console.ReadLine();
+
+            for (int i = 0; i < listaempresas.Count; i++)
+            {
+                if (nombreIngresado == (string)listaempresas.GetByIndex(i))
+                {
+                    Console.WriteLine("Codigo: {0} || CUIT: {1} || Empresa: {2}", i + 1, listaempresas.GetKey(i), listaempresas.GetByIndex(i));
+                }
+            }
+            Console.WriteLine("Presione una tecla para continuar y volver al menú.");
+            Console.ReadKey();
+        }
+        public static void VaciarLista(SortedList listaempresas)
+        {
+            int opcion = 0;
+            Console.WriteLine("¿Esta seguro que desea vaciar la lista? Presione 1- Si - 2- No");
+
+            do
+            {
+                opcion = int.Parse(Console.ReadLine());
+                if (opcion == 1)
+                {
+                    listaempresas.Clear();
+                    Console.WriteLine("Se ha vaciado la lista de empresas por completo.");
+                }
+                else if (opcion == 2)
+                {
+                    Console.WriteLine("No se ha vaciado la lista de empresas.");
+                }
+                else
+                {
+                    Console.WriteLine("El numero de opcion ingresado no es correcto, vuelva a intentarlo. INDIQUE=\n1- Si \n2- No");
+                }
+
+            } while (opcion < 1 || opcion > 2);
+            Console.WriteLine("Presione una tecla para continuar y volver al menú.");
+        }
+    }
+    
+}

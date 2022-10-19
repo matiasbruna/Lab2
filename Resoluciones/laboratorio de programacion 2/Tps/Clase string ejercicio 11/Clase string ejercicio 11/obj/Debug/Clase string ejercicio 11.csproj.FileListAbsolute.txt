@@ -1,0 +1,6 @@
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\bin\Debug\Clase string ejercicio 11.exe.config
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\bin\Debug\Clase string ejercicio 11.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\bin\Debug\Clase string ejercicio 11.pdb
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\obj\Debug\Clase string ejercicio 11.csproj.CoreCompileInputs.cache
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\obj\Debug\Clase string ejercicio 11.exe
+D:\Mestas\Facultad\laboratorio de programacion 2\Tps\Clase string ejercicio 11\Clase string ejercicio 11\obj\Debug\Clase string ejercicio 11.pdb

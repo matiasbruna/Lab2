@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase stringbuiilder ejercicio 2", "Clase stringbuiilder ejercicio 2\Clase stringbuiilder ejercicio 2.csproj", "{BFC94EA1-B500-4CCE-B096-3F5777C8A19D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC94EA1-B500-4CCE-B096-3F5777C8A19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC94EA1-B500-4CCE-B096-3F5777C8A19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC94EA1-B500-4CCE-B096-3F5777C8A19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC94EA1-B500-4CCE-B096-3F5777C8A19D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD6FC9BB-2949-476E-96A6-666456B76450}
+	EndGlobalSection
+EndGlobal
